@@ -1,7 +1,7 @@
-# 💱 Calculadora de Divisas con Scraping (CLP → USD / EUR)
+# 💱 Conversor de Divisas con Scraping (CLP → USD / EUR)
 
-Calculadora de divisas usando scraping del Banco Central de Chile con Streamlit y Python.
-Este proyecto permite **cargar un Excel o CSV con valores (CLP)** y calcular su equivalencia en **dólares (USD)** y **euros (EUR)**, con opción de aplicar una comisión personalizada.
+Conversor de divisas usando scraping del Banco Central de Chile con Streamlit y Python.
+Este permite **cargar un Excel o CSV con valores (CLP)** detecta las columnas numericas y suma la totalidad y calcula su equivalencia en **dólares (USD)** y **euros (EUR)**, con opción de aplicar una comisión personalizada.
 
 
 ---
