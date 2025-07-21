@@ -1,11 +1,10 @@
-import streamlit as st
 import requests
 from bs4 import BeautifulSoup
 import re
 
 
 #Función: obtener valor del dólar
-@st.cache_data
+
 def obtener_valor_dolar():
     url = "https://www.bcentral.cl/inicio"
     resp = requests.get(url)
@@ -21,7 +20,7 @@ def obtener_valor_dolar():
     return float(valor_str)
 
 #Función: obtener valor del euro
-@st.cache_data
+
 def obtener_valor_euro():
     import requests
     from bs4 import BeautifulSoup
