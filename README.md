@@ -1,4 +1,4 @@
-# 💱 Calculadora de Divisas (CLP → USD / EUR)
+# 💱 Scrapping de Calculadora de Divisas (CLP → USD / EUR)
 
 Este proyecto permite **cargar un Excel o CSV con valores (CLP)** y calcular su equivalencia en **dólares (USD)** y **euros (EUR)**, con opción de aplicar una comisión personalizada.
 
