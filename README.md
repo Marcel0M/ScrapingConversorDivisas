@@ -1,4 +1,5 @@
-# 💱 Conversor de Divisas con Scraping (CLP → USD / EUR)
+# Conversor de Divisas con Scraping (CLP a USD/EUR) - Python + Streamlit
+ (CLP → USD / EUR)
 
 Conversor de divisas usando scraping al Banco Central de Chile con Streamlit y Python.
 Este permite **cargar un Excel o CSV con valores (CLP)** detecta las columnas numericas y suma la totalidad y calcula su equivalencia en **dólares (USD)** y **euros (EUR)**, con opción de aplicar una comisión personalizada.
@@ -27,7 +28,7 @@ Instala dependencias:
 - python proto_divisas.py
 
 
-### 🔹 Qué hace
+### 🔹 Qué hace el conversor de divisas con scraping
 
 1. Te pedirá ingresar el nombre de un archivo Excel o CSV (ej: `calculoPrueba.xlsx`)
 2. Detectará automáticamente las columnas numéricas.
@@ -43,13 +44,13 @@ Instala dependencias:
 
 ## 🌐 Modo web (`app_divisas.py`)
 
-### 🔹 Uso
+### 🔹 Uso de conversor de divisas con scraping
 
 
 - streamlit run app_divisas.py
 
 
-### 🔹 Qué hace
+### 🔹 Qué hace conversor de divisas con scraping
 
 1. Carga archivos `.xlsx` o `.csv` mediante interfaz visual.
 2. Vista previa del archivo cargado.
